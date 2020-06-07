@@ -11,3 +11,16 @@
     
 
 }
+
+.footer{
+    
+    border-style: solid;
+    border-color: lightseagreen;
+    border-top: 
+}
+
+.img-fluid{
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+}
