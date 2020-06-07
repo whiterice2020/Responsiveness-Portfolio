@@ -4,68 +4,80 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="sytlesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 
 <body>
-    <!-- Name of Portfolio -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 style="text-align: center; background-color: lightseagreen;" class="display-4">Paul DelPadre</h1>
-          <!-- <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> -->
+  <header>
+    <!-- Nav Bar-->
+    <container>
+      <div class="container" style="background:white;">    
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Paul DelPadre</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li> -->
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </container>
+
+
+</header>
+
+    
+
+ <!-- Form -->
+ <container>
+    <div class="container" style="background:white;">   
+      <p class="font-weight-bold"><h1 style="color:lightseagreen ;">Contact</h1></p> 
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="name" class="form-control" id="name" aria-describedby="your-name" placeholder="John Smith">
+        
         </div>
-      </div>
-  
-    <!-- About Me Section Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!-- <a class="navbar-brand" href="#">Paul DelPadre</a> -->
-         <!-- <span class="navbar-toggler-icon"></span> -->
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">About </a>
-        <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-        <a class="nav-item nav-link" href="#">Contact<span class="sr-only">(current)</span>
-      </div>
-    </div>
-  </nav>
-
- <!-- Contact Heading -->
- <h1 style="text-align: left; color: lightseagreen;"><strong>Contact</strong> <span class="badge badge-secondary" text-al></span></h1>
-    <div class=".h-divider">
-        <hr>
-    </div>
-
-
-<!-- Form -->
-<form>
-    <div class="form-group">
-      <label for="name">Name</label>
-      <input type="name" class="form-control" id="name" aria-describedby="your-name" placeholder="John Smith">
-     
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
-    </div>
-    <div class="form-group">
-        <label for="Message">Message</label>
-        <textarea class="form-control" id="Message" rows="15"></textarea>
-      </div>
-      <button style="background-color:lightseagreen;" type="submit" class="btn btn-success">Submit</button>
-  </form>
-
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="example@gmail.com">
+        </div>
+        <div class="form-group">
+            <label for="Message">Message</label>
+            <textarea class="form-control" id="Message" rows="15"></textarea>
+        </div>
+          <button style="background-color:lightseagreen;" type="submit" class="btn btn-success">Submit</button>
+      </form>
+  </container>
 <!-- Seperating Line -->
   <hr/>
 
 
-<section>
-    <footer style="text-align: center; font-size: x-small;" id="copyright">
-        @Paul DelPadre
+<!-- Footer -->
 
-    </footer>
-</section> 
+<hr>
+<div class="p-3 mb-2 bg-secondary text-white">
+  <footer class="h8">
+    
+    <p class="text-center">@Paul DelPadre</p>
+
+  </footer>
+</div>
 
 </body>
 </html>
