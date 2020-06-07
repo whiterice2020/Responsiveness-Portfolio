@@ -1,10 +1,16 @@
-.backimg {
-    background-image: url("./Assets/Images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/* body{
+    background-image: image(./assets/images/me.png);
 
-}
+} */
+
+body {
+        /* background: image (assets/images/backg.jpg); */
+        background: url('https://images.freeimages.com/images/large-previews/9ef/the-white-texture-1639941.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
+      }
 
 .navbar-brand {
     background-color: lightseagreen;
@@ -23,4 +29,9 @@
     float: left;
     width: 33.3%;
     padding: 50px;
+}
+
+.col{
+    border-image-width: 50%;
+
 }
