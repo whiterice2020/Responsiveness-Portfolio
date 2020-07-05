@@ -1,6 +1,3 @@
-
-Portfolio contains links to GitHub profile, LinkedIn Profile, and Resume PDF
-
 Each project is listed with title, deployment URL, GitHub URL, and a screenshot
 
 Portfolio has a polished mobile responsive user interface
