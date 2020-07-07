@@ -32,7 +32,7 @@
   
 
   
-  # screenshots
+  # Screenshots
 
 
 
