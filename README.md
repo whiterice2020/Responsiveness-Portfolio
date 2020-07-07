@@ -33,11 +33,11 @@
 
   
   # Screenshots
-##About Me Page
+About Me Page
 ![aboutMe](https://user-images.githubusercontent.com/66220747/86695395-7f6f5580-bfda-11ea-89ce-68188c748d1b.jpg)
-##Contact Page
+Contact Page
 ![contact](https://user-images.githubusercontent.com/66220747/86695530-9f067e00-bfda-11ea-9f7a-8825a2b5a261.jpg)
-##Portfolio Page
+Portfolio Page
 ![portfolio](https://user-images.githubusercontent.com/66220747/86695583-ab8ad680-bfda-11ea-9174-5cc1fbcfa30b.jpg)
 
 
