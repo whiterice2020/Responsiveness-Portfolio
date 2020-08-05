@@ -27,8 +27,9 @@ body {
 
 .img-fluid{
     float: left;
-    width: 33.3%;
-    padding: 50px;
+    width: 230px;
+    height: 230px;
+    padding: 35px;
 }
 
 .col{
